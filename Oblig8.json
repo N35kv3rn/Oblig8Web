@@ -1,0 +1,91 @@
+"questions": [
+	
+	{
+		"title": "1. Which of the following types of testing are the fastest?",
+		"answers": [
+			{ 
+				"answer": "1. Integration testing" 
+			},
+			{
+				"answer": "2. UI testing"
+			},
+			{
+				"answer": "3. Unit testing",
+				"correct": true
+			},
+			{
+				"answer": "4. Performance testing"
+			}	
+		],
+		"helper": {
+			"text": "As integration, UI, and performance testing all require multiple parts of the whole project to be tested together, a simple unit test would be the fastest and least expensive"
+		}
+	}
+
+	{
+		"title": "2. Which of the following is the right method for writing Jest tests?",
+		"answers": [
+			{ 
+				"answer": "1. expect(thing).toDo(otherThing)"
+			},
+			{
+				"answer": "2. assume(thing).toBe(otherThing)"
+			},
+			{
+				"answer": "3. anticipate(thing)toDo(otherThing)"
+			},
+			{
+				"answer": "4. expect(thing).toBe(otherThing)",
+				"correct": true
+			}
+		],
+		"helper": {
+			"text": "We Expect one thing to Be equal to another, not necessarily Do the same thing"
+		}
+	}
+
+	{
+		"title": "3. If you want something to be done for each test case, before each case runs, which is the right method?",
+		"answers": [
+			{ 
+				"answer": "1. beforeEach()",
+				"correct": true
+			},
+			{
+				"answer": "2. beforeAll()"
+			},
+			{
+				"answer": "3. before()"
+			},
+			{
+				"answer": "4. afterEach()"
+			}
+		],
+		"helper": {
+			"text": "For Each test case we run, we want to do something Before it"
+		}
+	}
+
+	{
+		"title": "4. What is renderHook() used for?",
+		"answers": [
+			{ 
+				"answer": "1. For rendering the component to the project"
+			},
+			{
+				"answer": "2. For simulating a component so the hook can be tested",
+				"correct": true
+			},
+			{
+				"answer": "3. For re-rendering after something has been changed"
+			},
+			{
+				"answer": "4. For comparing a value to its expected value"
+			}
+		],
+		"helper": {
+			"text": "We want to render a fake component to make sure we can test the hook."
+		}
+	}
+
+]
